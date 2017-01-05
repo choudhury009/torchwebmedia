@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/css/bootstrap-select.min.css">
 
+    <link rel="stylesheet" type="text/css" href="css/front.css">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
 
@@ -23,7 +24,7 @@
 
 </head>
 
-<body>
+<body class="background-gradient-1">
 <nav id="mob-nav">
     <div class="nav-panel">
         {{--<ul class="menu-list">--}}
@@ -71,7 +72,7 @@
         </a>
     </div>
 
-    <nav class="navbar navbar-default">
+    <nav class="navbar">
         <div class="brand" style="float: left;">
             <a href="/" style="position: absolute;top:-18px;">
                 {{--<img src="/img/muzzinilogo.png" alt="Muzzini" style="width: 100px;">--}}
@@ -141,17 +142,17 @@
     <div id="footer-wrapper" class="text-center" style="color:white; background-color: #4A4A4A">
 
         <div>
-            <ul class="footer-middle">
+            {{--<ul class="footer-middle">--}}
                 {{--<li>{!! link_to('/shop/clothing', 'T-Shirts') !!}</li>--}}
                 {{--<li>{!! link_to('/shop/clothing', 'Hoodies &amp; Sweatshirts') !!}</li>--}}
                 {{--<li>{!! link_to('/shop/clothing', 'Jackets &amp; Jeans') !!}</li>--}}
                 {{--<li>{!! link_to('/shop/accessories', 'Hats &amp; Bags') !!}</li>--}}
-            </ul>
-            <hr>
-            <span>We accept the following</span>
-            <br>
-            <img style="width: 150px;" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png" alt="Buy now with PayPal">
-            <br>
+            {{--</ul>--}}
+            {{--<hr>--}}
+            {{--<span>We accept the following</span>--}}
+            {{--<br>--}}
+            {{--<img style="width: 150px;" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png" alt="Buy now with PayPal">--}}
+            {{--<br>--}}
             {{--<span>Copyright &copy; 2017 Muzzini. All images and rights reserved. {!! link_to('/info/privacy-policy', 'Privacy policy') !!}</span>--}}
         </div>
     </div>
@@ -161,6 +162,38 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    var map;
+    function initMap() {
+        var myLatLng = {lat: 53.472782, lng: -2.300661};
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: myLatLng,
+            zoom: 18
+        });
+
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'Where we are located'
+        });
+
+        marker.setMap(map);
+    }
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-53909264-4', 'auto');
+    ga('send', 'pageview');
+
+
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxuVz0kbmz8rY-ALkvZDj4lIhFm7BvQxQ&amp;callback=initMap" async="" defer=""></script>
+
 
 <script>
     $(function() {
