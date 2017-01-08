@@ -24,7 +24,7 @@
 
 </head>
 
-<body class="background-gradient-1">
+<body class="body-grad">
 <nav id="mob-nav">
     <div class="nav-panel">
         {{--<ul class="menu-list">--}}

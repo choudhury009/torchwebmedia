@@ -30,7 +30,7 @@ label {
     100% {
         background-position: 26% 0%; } }
 
-.background-gradient-1 {
+.body-grad {
     display: block;
     z-index: 1;
     opacity: 1 !important;
@@ -47,7 +47,7 @@ label {
     -ms-filter: alpha(opacity=0);
     -o-filter: alpha(opacity=0);
     filter: alpha(opacity=0);
-    background: linear-gradient(342deg, #0099F7, #F11712, #0099F7, #F11712);
+    background: linear-gradient(342deg, #00565e, #fffcf6, #001e20, #ffffff);
     background-size: 300% 300%;
     -webkit-animation: AnimationName 19s ease infinite;
     -moz-animation: AnimationName 19s ease infinite;
@@ -56,289 +56,289 @@ label {
     overflow-x: hidden;
     overflow-y: auto;
     z-index: 99; }
-.background-gradient-1 .limit-width {
+.body-grad .limit-width {
     max-width: 75%; }
-.background-gradient-1 .site-logo-container {
+.body-grad .site-logo-container {
     margin-bottom: 40px; }
-.background-gradient-1 .place-content-bottom {
+.body-grad .place-content-bottom {
     position: absolute;
     left: 0;
     bottom: 5px;
     right: 0;
     width: 100%; }
-.background-gradient-1 .place-content-bottom .menu-container {
+.body-grad .place-content-bottom .menu-container {
     float: none;
     margin: auto; }
-.background-gradient-1 .place-content-bottom .menu-container .menu-item .bt-edit {
+.body-grad .place-content-bottom .menu-container .menu-item .bt-edit {
     margin-left: 11px; }
-.background-gradient-1 .place-content-bottom .menu-container .menu-item img {
+.body-grad .place-content-bottom .menu-container .menu-item img {
     margin: auto; }
 @media screen and (max-height: 515px) {
-    .background-gradient-1 .place-content-bottom .menu-container .menu-item img {
+    .body-grad .place-content-bottom .menu-container .menu-item img {
         height: 7%; } }
-.background-gradient-1 .place-content-bottom .menu-container .menu-item label {
+.body-grad .place-content-bottom .menu-container .menu-item label {
     font-size: 18pt; }
-.background-gradient-1 .team-quote {
+.body-grad .team-quote {
     font-size: 16pt; }
-.background-gradient-1 .landing-text {
+.body-grad .landing-text {
     font-size: 18pt; }
-.background-gradient-1 .selected-nav-item {
+.body-grad .selected-nav-item {
     margin-top: 80px !important;
     margin-bottom: 80px !important; }
-.background-gradient-1 .laptop-container {
+.body-grad .laptop-container {
     /*background: url("") center no-repeat;*/
     background-size: contain;
     height: 0;
     padding-top: 32%; }
-.background-gradient-1 .laptop-container .laptop-placement {
+.body-grad .laptop-container .laptop-placement {
     position: absolute;
     top: 6%;
     left: 28%;
     width: 57.5%; }
-.background-gradient-1 .laptop-container .mobile-placement {
+.body-grad .laptop-container .mobile-placement {
     position: absolute;
     top: 27%;
     left: 10.5%;
     width: 16.6%; }
-.background-gradient-1 .landing-info-container {
+.body-grad .landing-info-container {
     margin-top: 8% !important; }
-.background-gradient-1 .landing-info-container label {
+.body-grad .landing-info-container label {
     margin-bottom: 80px; }
-.background-gradient-1 .service-text-container {
+.body-grad .service-text-container {
     margin-top: 15px; }
-.background-gradient-1 .service-text-container .service-title {
+.body-grad .service-text-container .service-title {
     font-size: 14pt;
     font-weight: 400;
     margin-bottom: 15px; }
 @media screen and (min-width: 992px) and (max-height: 770px) {
-    .background-gradient-1 .landing-info-container {
+    .body-grad .landing-info-container {
         margin-top: 0% !important; } }
 @media screen and (max-width: 1513px) {
-    .background-gradient-1 .laptop-container {
+    .body-grad .laptop-container {
         padding-top: 28%; }
-    .background-gradient-1 .laptop-container .laptop-placement {
+    .body-grad .laptop-container .laptop-placement {
         top: 6.5%;
         left: 31%;
         width: 50%; }
-    .background-gradient-1 .laptop-container .mobile-placement {
+    .body-grad .laptop-container .mobile-placement {
         top: 27%;
         left: 15.5%;
         width: 14.5%; } }
 @media screen and (max-width: 1250px) {
-    .background-gradient-1 .limit-width {
+    .body-grad .limit-width {
         max-width: 100%; }
-    .background-gradient-1 .laptop-container {
+    .body-grad .laptop-container {
         padding-top: 36%; }
-    .background-gradient-1 .laptop-container .laptop-placement {
+    .body-grad .laptop-container .laptop-placement {
         left: 25%;
         width: 65%; }
-    .background-gradient-1 .laptop-container .mobile-placement {
+    .body-grad .laptop-container .mobile-placement {
         left: 5.5%;
         width: 18.5%; } }
 @media screen and (max-width: 1100px) {
-    .background-gradient-1 .laptop-container {
+    .body-grad .laptop-container {
         padding-top: 36%; }
-    .background-gradient-1 .laptop-container .laptop-placement {
+    .body-grad .laptop-container .laptop-placement {
         left: 25%;
         width: 65%; }
-    .background-gradient-1 .laptop-container .mobile-placement {
+    .body-grad .laptop-container .mobile-placement {
         left: 5.5%;
         width: 18.5%; } }
 @media screen and (min-width: 992px) {
-    .background-gradient-1 .contact-section .send-button-holder {
+    .body-grad .contact-section .send-button-holder {
         padding-right: 0px !important; }
-    .background-gradient-1 .md-lg-margin-top {
+    .body-grad .md-lg-margin-top {
         margin-top: 40px; } }
 @media screen and (max-width: 991px) {
-    .background-gradient-1 .site-logo-container {
+    .body-grad .site-logo-container {
         margin-bottom: 0px; }
-    .background-gradient-1 .site-logo-container img {
+    .body-grad .site-logo-container img {
         padding-left: 0px;
         padding-top: 0px;
         max-height: 40px; }
-    .background-gradient-1 .service-image-container img {
+    .body-grad .service-image-container img {
         max-width: 80%;
         margin: auto; }
-    .background-gradient-1 .landing-info-container label {
+    .body-grad .landing-info-container label {
         margin-bottom: 40px; }
-    .background-gradient-1 .landing-info-container {
+    .body-grad .landing-info-container {
         margin-top: 0% !important; }
-    .background-gradient-1 .laptop-container {
+    .body-grad .laptop-container {
         /*background: url("") center no-repeat;*/
         background-size: contain;
         height: 0;
         padding-top: 53%; }
-    .background-gradient-1 .laptop-container .mobile-placement {
+    .body-grad .laptop-container .mobile-placement {
         top: 12.3%;
         left: 38.9%;
         width: 22.3%; }
-    .background-gradient-1 .map-container {
+    .body-grad .map-container {
         margin-top: 20px; } }
 @media screen and (max-width: 865px) {
-    .background-gradient-1 .small-device-no-padding-left-right {
+    .body-grad .small-device-no-padding-left-right {
         padding-left: 0px;
         padding-right: 0px; }
-    .background-gradient-1 .small-device-no-padding-left-right .fa-4x {
+    .body-grad .small-device-no-padding-left-right .fa-4x {
         font-size: 3em; } }
 @media screen and (max-width: 767px) {
-    .background-gradient-1 .service-item {
+    .body-grad .service-item {
         margin-bottom: 20px; }
-    .background-gradient-1 .service-image-container img {
+    .body-grad .service-image-container img {
         max-width: 50%; }
-    .background-gradient-1 .landing-info-container label {
+    .body-grad .landing-info-container label {
         margin-bottom: 15px; }
-    .background-gradient-1 .landing-text {
+    .body-grad .landing-text {
         font-size: 15pt; } }
 @media screen and (max-width: 601px) and (max-height: 961px) and (min-height: 750px) {
-    .background-gradient-1 .laptop-container {
+    .body-grad .laptop-container {
         padding-top: 90%; }
-    .background-gradient-1 .laptop-container .laptop-placement {
+    .body-grad .laptop-container .laptop-placement {
         top: 27.5%;
         left: 25%;
         width: 65%; }
-    .background-gradient-1 .laptop-container .mobile-placement {
+    .body-grad .laptop-container .mobile-placement {
         top: 12.4%;
         left: 31.2%;
         width: 38%; } }
 @media screen and (max-width: 500px) {
-    .background-gradient-1 .place-content-bottom .menu-container {
+    .body-grad .place-content-bottom .menu-container {
         width: 93%; }
-    .background-gradient-1 .landing-text {
+    .body-grad .landing-text {
         font-size: 13pt; }
-    .background-gradient-1 .laptop-container {
+    .body-grad .laptop-container {
         padding-top: 75%; }
-    .background-gradient-1 .laptop-container .laptop-placement, .background-gradient-1 .laptop-container .mobile-placement {
+    .body-grad .laptop-container .laptop-placement, .body-grad .laptop-container .mobile-placement {
         z-index: -1; }
-    .background-gradient-1 .laptop-container .laptop-placement {
+    .body-grad .laptop-container .laptop-placement {
         top: 18.5%;
         left: 24.8%;
         width: 66%; }
-    .background-gradient-1 .laptop-container .mobile-placement {
+    .body-grad .laptop-container .mobile-placement {
         top: 12.1%;
         left: 34.2%;
         width: 31.6%; }
-    .background-gradient-1 .team-quote {
+    .body-grad .team-quote {
         font-size: 14pt; } }
 @media screen and (max-width: 415px) and (max-height: 737px) and (min-height: 700px) {
-    .background-gradient-1 .landing-text {
+    .body-grad .landing-text {
         font-size: 16pt; }
-    .background-gradient-1 .laptop-container {
+    .body-grad .laptop-container {
         padding-top: 95%; }
-    .background-gradient-1 .laptop-container .laptop-placement {
+    .body-grad .laptop-container .laptop-placement {
         top: 25.5%;
         left: 24.8%;
         width: 65%; }
-    .background-gradient-1 .laptop-container .mobile-placement {
+    .body-grad .laptop-container .mobile-placement {
         left: 29.5%;
         width: 40.6%; } }
-.background-gradient-1 .big-laptop {
+.body-grad .big-laptop {
     margin: auto;
     min-height: 80%; }
-.background-gradient-1 .laptop-associated-text-container {
+.body-grad .laptop-associated-text-container {
     position: absolute;
     top: 24%;
     left: 23%; }
-.background-gradient-1 .laptop-associated-text-container .laptop-associated-text {
+.body-grad .laptop-associated-text-container .laptop-associated-text {
     font-size: 10pt;
     color: #FFF; }
-.background-gradient-1 .nav-link {
+.body-grad .nav-link {
     color: #fff; }
-.background-gradient-1 .nav-link:hover {
+.body-grad .nav-link:hover {
     cursor: pointer; }
 @media (max-width: 992px) and (min-width: 768px) {
-    .background-gradient-1 .service-item {
+    .body-grad .service-item {
         min-height: 475px; } }
-.background-gradient-1 .who-we-are-container img {
+.body-grad .who-we-are-container img {
     margin: auto;
     max-width: 251px;
     box-shadow: 0px 0px 23px #000;
     box-shadow: 0px 0px 23px rgba(255, 255, 255, 0.8); }
-.background-gradient-1 .who-we-are-container label {
+.body-grad .who-we-are-container label {
     text-align: center; }
-.background-gradient-1 .who-we-are-container .big-label {
+.body-grad .who-we-are-container .big-label {
     font-size: 22pt; }
-.background-gradient-1 .who-we-are-container .small-label {
+.body-grad .who-we-are-container .small-label {
     font-size: 12pt;
     padding-bottom: 20px; }
-.background-gradient-1 .who-we-are-intro-text p {
+.body-grad .who-we-are-intro-text p {
     font-size: 30pt;
     line-height: 60px; }
 @media screen and (max-width: 801px) and (max-height: 1281px) and (min-height: 1079px) {
-    .background-gradient-1 .laptop-container {
+    .body-grad .laptop-container {
         padding-top: 118%; }
-    .background-gradient-1 .laptop-container .mobile-placement {
+    .body-grad .laptop-container .mobile-placement {
         left: 24.9%;
         width: 50.3%; } }
 @media screen and (max-width: 769px) and (max-height: 1025px) and (min-height: 1023px) {
-    .background-gradient-1 .laptop-container {
+    .body-grad .laptop-container {
         padding-top: 94%; }
-    .background-gradient-1 .laptop-container .mobile-placement {
+    .body-grad .laptop-container .mobile-placement {
         top: 12.3%;
         left: 30%;
         width: 40%; } }
 @media screen and (max-width: 1024px) and (max-height: 768px) {
-    .background-gradient-1 .who-we-are-container img {
+    .body-grad .who-we-are-container img {
         max-width: 205px; } }
-.background-gradient-1 .font-bold {
+.body-grad .font-bold {
     font-weight: bold; }
-.background-gradient-1 .text-center {
+.body-grad .text-center {
     text-align: center; }
-.background-gradient-1 .margin-top-20 {
+.body-grad .margin-top-20 {
     margin-top: 20px; }
-.background-gradient-1 .margin-top-40 {
+.body-grad .margin-top-40 {
     margin-top: 40px; }
-.background-gradient-1 .margin-top-80 {
+.body-grad .margin-top-80 {
     margin-top: 80px; }
-.background-gradient-1 .margin-bottom-20 {
+.body-grad .margin-bottom-20 {
     margin-bottom: 20px; }
-.background-gradient-1 .margin-bottom-40 {
+.body-grad .margin-bottom-40 {
     margin-bottom: 40px; }
-.background-gradient-1 .margin-bottom-80 {
+.body-grad .margin-bottom-80 {
     margin-bottom: 80px; }
-.background-gradient-1 .margin-bottom-100 {
+.body-grad .margin-bottom-100 {
     margin-bottom: 100px; }
-.background-gradient-1 .block {
+.body-grad .block {
     display: block; }
-.background-gradient-1 .margin-auto {
+.body-grad .margin-auto {
     margin: auto; }
-.background-gradient-1 .row-margin-left-and-right-fix {
+.body-grad .row-margin-left-and-right-fix {
     margin: auto; }
-.background-gradient-1 .row-margin-top {
+.body-grad .row-margin-top {
     margin-top: 4%; }
-.background-gradient-1 .no-margin-left-right {
+.body-grad .no-margin-left-right {
     margin-left: 0px;
     margin-right: 0px; }
-.background-gradient-1 .site-logo {
+.body-grad .site-logo {
     float: left;
     max-height: 70px;
     max-width: 300px;
     padding-left: 15px;
     padding-top: 15px; }
-.background-gradient-1 .height-full {
+.body-grad .height-full {
     height: 100%; }
-.background-gradient-1 .float-right {
+.body-grad .float-right {
     float: right; }
-.background-gradient-1 #map {
+.body-grad #map {
     width: 100%;
     height: 400px;
     background-color: #CCC; }
-.background-gradient-1 .error {
+.body-grad .error {
     color: red; }
-.background-gradient-1 .color-black {
+.body-grad .color-black {
     color: #000; }
-.background-gradient-1 .contact-section .address-text {
+.body-grad .contact-section .address-text {
     font-size: 16pt; }
-.background-gradient-1 .contact-section .form-control {
+.body-grad .contact-section .form-control {
     padding: 14px 12px;
     height: auto; }
-.background-gradient-1 .font-size-generic {
+.body-grad .font-size-generic {
     font-size: 14pt; }
-.background-gradient-1 .color-hlsa {
+.body-grad .color-hlsa {
     color: #ffffff;
     color: rgba(255, 255, 255, 0.8); }
-.background-gradient-1 .thank-you-text {
+.body-grad .thank-you-text {
     font-size: 22pt; }
-.background-gradient-1 .typed-cursor {
+.body-grad .typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;

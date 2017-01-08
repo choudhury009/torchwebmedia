@@ -9,9 +9,8 @@
 
             <div class="row row-margin-left-and-right-fix limit-width landing-info-container">
                 <div class="col-xs-12 col-md-4">
-                    <label class="landing-text main-text">We strongly believe in simplicity.<span class="typed-cursor">|</span></label>
+                    <label class="landing-text main-text">Whatever you want, we can make!<span class="typed-cursor">|</span></label>
                     <p class="landing-text">
-                        Through simplicity we can create websites and apps that are both stunning and effective.
                     </p>
                 </div>
                 <div class="col-xs-12 col-md-8 laptop-container">
