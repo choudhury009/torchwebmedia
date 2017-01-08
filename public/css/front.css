@@ -86,7 +86,7 @@ label {
     margin-top: 80px !important;
     margin-bottom: 80px !important; }
 .background-gradient-1 .laptop-container {
-    background: url("https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/iphoneandlaptoptransparent.png") center no-repeat;
+    /*background: url("") center no-repeat;*/
     background-size: contain;
     height: 0;
     padding-top: 32%; }
@@ -164,7 +164,7 @@ label {
     .background-gradient-1 .landing-info-container {
         margin-top: 0% !important; }
     .background-gradient-1 .laptop-container {
-        background: url("https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/iphone.png") center no-repeat;
+        /*background: url("") center no-repeat;*/
         background-size: contain;
         height: 0;
         padding-top: 53%; }

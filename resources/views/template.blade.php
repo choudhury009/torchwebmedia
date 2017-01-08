@@ -163,38 +163,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<script type="text/javascript">
-    var map;
-    function initMap() {
-        var myLatLng = {lat: 53.472782, lng: -2.300661};
-        map = new google.maps.Map(document.getElementById('map'), {
-            center: myLatLng,
-            zoom: 18
-        });
-
-        var marker = new google.maps.Marker({
-            position: myLatLng,
-            map: map,
-            title: 'Where we are located'
-        });
-
-        marker.setMap(map);
-    }
-
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-53909264-4', 'auto');
-    ga('send', 'pageview');
-
-
-
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxuVz0kbmz8rY-ALkvZDj4lIhFm7BvQxQ&amp;callback=initMap" async="" defer=""></script>
-
-
 <script>
     $(function() {
         $('.logout').click(function(e) {
