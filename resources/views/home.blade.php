@@ -1,33 +1,106 @@
 @extends('template')
 
 @section('main')
-    <div class="home-container">
-        <div class="height-full">
-            <div class="row no-margin-left-right site-logo-container">
+    <div class="col-lg-12" style="background-color: rgb(240, 240, 240)">
+        {{--<div class="height-full">--}}
+            {{--<div class="row no-margin-left-right site-logo-container">--}}
                 {{--<img class="site-logo" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/logowhite3.png">--}}
+            {{--</div>--}}
+
+        <div class="row row-margin-left-and-right-fix limit-width">
+            <div class="col-xs-12 col-md-4">
+                <label class="landing-text main-text" style="color: black">Whatever you want, we can make!</label>
+                <p class="landing-text">
+                </p>
             </div>
+            <div class="col-xs-12 col-md-8">
+                <div id="slideshow" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    {{--<ol class="carousel-indicators">--}}
+                        {{--<li data-target="#slideshow" data-slide-to="0" class="active"></li>--}}
+                        {{--<li data-target="#slideshow" data-slide-to="1"></li>--}}
+                        {{--<li data-target="#slideshow" data-slide-to="2"></li>--}}
+                        {{--<li data-target="#slideshow" data-slide-to="3"></li>--}}
+                    {{--</ol>--}}
 
-            <div class="row row-margin-left-and-right-fix limit-width landing-info-container">
-                <div class="col-xs-12 col-md-4">
-                    <label class="landing-text main-text">Whatever you want, we can make!<span class="typed-cursor">|</span></label>
-                    <p class="landing-text">
-                    </p>
-                </div>
-                <div class="col-xs-12 col-md-8 laptop-container">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="/img/slideshow/slideshow1.jpg" alt="Muzzini font">
+                        </div>
 
-                </div>
-            </div>
-            <div class="place-content-bottom">
+                        <div class="item">
+                            <img src="/img/slideshow/slideshow2.jpg" alt="Muzzini font">
+                        </div>
 
-                <div class="col-xs-8 text-center menu-container">
-                    <div class="clearfix"></div>
+                        <div class="item">
+                            <img src="/img/slideshow/slideshow3.jpg" alt="Muzzini font">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#slideshow" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#slideshow" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
         </div>
+        <div class="place-content-bottom">
 
+            <div class="col-xs-8 text-center menu-container">
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>
+            Course and Subjects <i class="fa fa-comment"></i></h2>
+        <p>Here are our latest subjects that we are currently offering</p>
+        <p>We supply a wide range of topics, including development, design, photography and everything in-between</p>
+    </div>
+    <div class="container cf">
+        <!-- Course 1 -->
+        <div class="animation-element bounce-up cf">
+            <div class="subject development">
+                <div class="category-color"></div>
+                <div class="icon"><i class="fa fa-cogs"></i></div>
+                <div class="header cf">
+                    <h4 class="date"><i class="fa fa-calendar-o"></i> April, 2015</h4>
+                    <h4 class="category"><i class="fa fa-folder-o"></i> Development</h4>
+                </div>
+                <img class="img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/chemistryicon.png">
+                <h3 class="title">We build stunning websites!</h3>
+                <div class="content">An introductory class on C++. This course will outline the basic elements required to understand development...</div>
+                {{--<div class="enrole">Enrole</div>--}}
+            </div>
+        </div>
+        <div class="animation-element bounce-up cf">
+            <div class="subject design">
+                <div class="category-color"></div>
+                <div class="icon"><i class="fa fa-cogs"></i></div>
+                <div class="header cf">
+                    <h4 class="date"><i class="fa fa-calendar-o"></i> April, 2015</h4>
+                    <h4 class="category"><i class="fa fa-folder-o"></i> Development</h4>
+                </div>
+                <img class="img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/websiteicon.png">
+                <h3 class="title">We build stunning websites!</h3>
+                <div class="content">An introductory class on C++. This course will outline the basic elements required to understand development...</div>
+                {{--<div class="enrole">Enrole</div>--}}
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12" style="background-color: #66a5ff">
         <div class="row row-margin-left-and-right-fix limit-width selected-nav-item service-section" data-bind="visible: serviceState() === true">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 service-item">
+                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 service-item">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 service-item">
                     <div class="service-image-container">
                         <img class="img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/chemistryicon.png">
                     </div>
@@ -40,7 +113,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 service-item">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 service-item">
                     <div class="service-image-container">
                         <img class="img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/websiteicon.png">
                     </div>
@@ -53,7 +126,15 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 service-item">
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12" style="background-color: #0069ff">
+        <div class="row row-margin-left-and-right-fix limit-width selected-nav-item service-section" data-bind="visible: serviceState() === true">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 service-item">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 service-item">
                     <div class="service-image-container">
                         <img class="img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/cloudicon.png">
                     </div>
@@ -66,7 +147,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 service-item">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 service-item">
                     <div class="service-image-container">
                         <img class="img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/maintenanceicon.png">
                     </div>
@@ -84,4 +165,41 @@
                 </div>
             </div>
         </div>
+    </div>
+@endsection
+
+@section('scripts')
+    <script>
+        $(function() {
+
+            var $animation_elements = $('.animation-element');
+            var $window = $(window);
+
+            function check_if_in_view() {
+            var window_height = $window.height();
+            var window_top_position = $window.scrollTop();
+            var window_bottom_position = (window_top_position + window_height);
+
+            $.each($animation_elements, function() {
+            var $element = $(this);
+            var element_height = $element.outerHeight();
+            var element_top_position = $element.offset().top;
+            var element_bottom_position = (element_top_position + element_height);
+
+            //check to see if this current container is within viewport
+            if ((element_bottom_position >= window_top_position) &&
+            (element_top_position <= window_bottom_position)) {
+            $element.addClass('in-view');
+            } else {
+            $element.removeClass('in-view');
+            }
+            });
+            }
+
+            $window.on('scroll resize', check_if_in_view);
+            $window.trigger('scroll');
+        });
+    </script>
+
+
 @endsection

@@ -24,7 +24,7 @@
 
 </head>
 
-<body class="body-grad">
+<body class="" style="background-color: rgb(240, 240, 240)">
 <nav id="mob-nav">
     <div class="nav-panel">
         {{--<ul class="menu-list">--}}
