@@ -57,79 +57,82 @@
             </div>
         </div>
     </div>
+    {{--<div class="container cf">--}}
+        {{--<!-- Course 1 -->--}}
+        {{--<div class="animation-element bounce-up cf">--}}
+            {{--<div class="subject development">--}}
+                {{--<div class="category-color"></div>--}}
+                {{--<div class="icon"><i class="fa fa-cogs"></i></div>--}}
+                {{--<div class="header cf">--}}
+                    {{--<h4 class="date"><i class="fa fa-calendar-o"></i> April, 2015</h4>--}}
+                    {{--<h4 class="category"><i class="fa fa-folder-o"></i> Development</h4>--}}
+                {{--</div>--}}
+                {{--<img class="img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/chemistryicon.png">--}}
+                {{--<h3 class="title">We build stunning websites!</h3>--}}
+                {{--<div class="content">An introductory class on C++. This course will outline the basic elements required to understand development...</div>--}}
+                {{--<div class="enrole">Enrole</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="animation-element bounce-up cf">--}}
+            {{--<div class="subject design">--}}
+                {{--<div class="category-color"></div>--}}
+                {{--<div class="icon"><i class="fa fa-cogs"></i></div>--}}
+                {{--<div class="header cf">--}}
+                    {{--<h4 class="date"><i class="fa fa-calendar-o"></i> April, 2015</h4>--}}
+                    {{--<h4 class="category"><i class="fa fa-folder-o"></i> Development</h4>--}}
+                {{--</div>--}}
+                {{--<img class="img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/websiteicon.png">--}}
+                {{--<h3 class="title">We build stunning websites!</h3>--}}
+                {{--<div class="content">An introductory class on C++. This course will outline the basic elements required to understand development...</div>--}}
+                {{--<div class="enrole">Enrole</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
 
-    <div class="container">
+    <div class="col-lg-12" style="">
         <h2>
             Course and Subjects <i class="fa fa-comment"></i></h2>
         <p>Here are our latest subjects that we are currently offering</p>
         <p>We supply a wide range of topics, including development, design, photography and everything in-between</p>
-    </div>
-    <div class="container cf">
-        <!-- Course 1 -->
-        <div class="animation-element bounce-up cf">
-            <div class="subject development">
-                <div class="category-color"></div>
-                <div class="icon"><i class="fa fa-cogs"></i></div>
-                <div class="header cf">
-                    <h4 class="date"><i class="fa fa-calendar-o"></i> April, 2015</h4>
-                    <h4 class="category"><i class="fa fa-folder-o"></i> Development</h4>
-                </div>
-                <img class="img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/chemistryicon.png">
-                <h3 class="title">We build stunning websites!</h3>
-                <div class="content">An introductory class on C++. This course will outline the basic elements required to understand development...</div>
-                {{--<div class="enrole">Enrole</div>--}}
-            </div>
+        <div class="col-lg-1 service-item">
         </div>
-        <div class="animation-element bounce-up cf">
-            <div class="subject design">
-                <div class="category-color"></div>
-                <div class="icon"><i class="fa fa-cogs"></i></div>
-                <div class="header cf">
-                    <h4 class="date"><i class="fa fa-calendar-o"></i> April, 2015</h4>
-                    <h4 class="category"><i class="fa fa-folder-o"></i> Development</h4>
+        <div class="col-lg-10 service-item text-center cf">
+            <!-- Course 1 -->
+            <div class="animation-element bounce-up cf">
+                <div class="subject development">
+                    <div class="category-color"></div>
+                    <div class="icon"><i class="fa fa-cogs"></i></div>
+                    <div class="header cf">
+                        <h4 class="date"><i class="fa fa-calendar-o"></i> April, 2015</h4>
+                        <h4 class="category"><i class="fa fa-folder-o"></i> Development</h4>
+                    </div>
+                    <img style="float: left" width="40%" class="service-image img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/chemistryicon.png">
+                    <br>
+                    <h3 class="title">We build stunning websites!</h3>
+                    <div class="content">An introductory class on C++. This course will outline the basic elements required to understand development...</div>
+                    {{--<div class="enrole">Enrole</div>--}}
                 </div>
-                <img class="img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/websiteicon.png">
-                <h3 class="title">We build stunning websites!</h3>
-                <div class="content">An introductory class on C++. This course will outline the basic elements required to understand development...</div>
-                {{--<div class="enrole">Enrole</div>--}}
             </div>
-        </div>
-    </div>
-    <div class="col-lg-12" style="background-color: #66a5ff">
-        <div class="row row-margin-left-and-right-fix limit-width selected-nav-item service-section" data-bind="visible: serviceState() === true">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 service-item">
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 service-item">
-                    <div class="service-image-container">
-                        <img class="img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/chemistryicon.png">
+            <div class="animation-element bounce-up cf">
+                <div class="subject design">
+                    <div class="category-color"></div>
+                    <div class="icon"><i class="fa fa-cogs"></i></div>
+                    <div class="header cf">
+                        <h4 class="date"><i class="fa fa-calendar-o"></i> April, 2015</h4>
+                        <h4 class="category"><i class="fa fa-folder-o"></i> Development</h4>
                     </div>
-                    <div class="service-text-container">
-                        <p class="service-title">
-                            We design and build stunning websites and mobile applications
-                        </p>
-                        <p class="font-size-generic color-hlsa">
-                            <span class="block">Based on simplicity, </span> we believe that we can show off what you have to offer in the most effective way possible.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 service-item">
-                    <div class="service-image-container">
-                        <img class="img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/websiteicon.png">
-                    </div>
-                    <div class="service-text-container">
-                        <p class="service-title">
-                            We listen to you
-                        </p>
-                        <p class="font-size-generic color-hlsa">
-                            It is important for us to understand your vision in order to translate that into a website or application that you are proud to show off.
-                        </p>
-                    </div>
+                    <img style="float: left" width="40%" class="service-image img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/websiteicon.png">
+                    <br>
+                    <h3 class="title">We build stunning websites!</h3>
+                    <div class="content">An introductory class on C++. This course will outline the basic elements required to understand development...</div>
+                    {{--<div class="enrole">Enrole</div>--}}
                 </div>
             </div>
         </div>
+        <div class="col-lg-1">
+        </div>
     </div>
-    <div class="col-lg-12" style="background-color: #0069ff">
+    <div class="col-lg-12">
         <div class="row row-margin-left-and-right-fix limit-width selected-nav-item service-section" data-bind="visible: serviceState() === true">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                 <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 service-item">

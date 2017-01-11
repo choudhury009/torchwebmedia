@@ -384,18 +384,18 @@ label {
 /*3 grid layout*/
 
 .animation-element:nth-of-type(3n-2) {
-    width: 31.5%;
+    width: 45%;
     margin: 0% 1.375% 2.75% 0%;
     clear: left;
 }
 
 .animation-element:nth-of-type(3n-1) {
-    width: 31.5%;
+    width: 45%;
     margin: 0% 1.375% 2.75% 1.375%;
 }
 
 .animation-element:nth-of-type(3n-0) {
-    width: 31.5%;
+    width: 45%;
     margin: 0% 0% 2.75% 1.375%;
     clear: right;
 }
@@ -568,6 +568,10 @@ label {
     .animation-element:nth-of-type(3n-0) {
         width: 100%;
         margin: 0px 0px 30px 0px;
+    }
+    .service-image {
+        float: none;
+        width: 100%;
     }
     .subject .header .date,
     .subject .header .category {
