@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ trans('front/site.title') }}</title>
+    <title>JWL</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -24,7 +24,7 @@
 
 </head>
 
-<body class="" style="background-color: rgb(240, 240, 240)">
+<body class="body-grad" style="background-color: rgb(240, 240, 240)">
 <nav id="mob-nav">
     <div class="nav-panel">
         {{--<ul class="menu-list">--}}

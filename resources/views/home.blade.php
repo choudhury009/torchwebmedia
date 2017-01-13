@@ -1,18 +1,8 @@
 @extends('template')
 
 @section('main')
-    <div class="col-lg-12" style="background-color: rgb(240, 240, 240)">
-        {{--<div class="height-full">--}}
-            {{--<div class="row no-margin-left-right site-logo-container">--}}
-                {{--<img class="site-logo" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/logowhite3.png">--}}
-            {{--</div>--}}
-
-        <div class="row row-margin-left-and-right-fix limit-width">
-            <div class="col-xs-12 col-md-4">
-                <label class="landing-text main-text" style="color: black">Whatever you want, we can make!</label>
-                <p class="landing-text">
-                </p>
-            </div>
+    <div class="col-lg-12" style="">
+        <div class="row fix-margin limit-width">
             <div class="col-xs-12 col-md-8">
                 <div id="slideshow" class="carousel slide animation-element slide-right" data-ride="carousel">
                     <!-- Indicators -->
@@ -57,74 +47,33 @@
             </div>
         </div>
     </div>
-    {{--<div class="container cf">--}}
-        {{--<!-- Course 1 -->--}}
-        {{--<div class="animation-element bounce-up cf">--}}
-            {{--<div class="subject development">--}}
-                {{--<div class="category-color"></div>--}}
-                {{--<div class="icon"><i class="fa fa-cogs"></i></div>--}}
-                {{--<div class="header cf">--}}
-                    {{--<h4 class="date"><i class="fa fa-calendar-o"></i> April, 2015</h4>--}}
-                    {{--<h4 class="category"><i class="fa fa-folder-o"></i> Development</h4>--}}
-                {{--</div>--}}
-                {{--<img class="img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/chemistryicon.png">--}}
-                {{--<h3 class="title">We build stunning websites!</h3>--}}
-                {{--<div class="content">An introductory class on C++. This course will outline the basic elements required to understand development...</div>--}}
-                {{--<div class="enrole">Enrole</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-        {{--<div class="animation-element bounce-up cf">--}}
-            {{--<div class="subject design">--}}
-                {{--<div class="category-color"></div>--}}
-                {{--<div class="icon"><i class="fa fa-cogs"></i></div>--}}
-                {{--<div class="header cf">--}}
-                    {{--<h4 class="date"><i class="fa fa-calendar-o"></i> April, 2015</h4>--}}
-                    {{--<h4 class="category"><i class="fa fa-folder-o"></i> Development</h4>--}}
-                {{--</div>--}}
-                {{--<img class="img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/websiteicon.png">--}}
-                {{--<h3 class="title">We build stunning websites!</h3>--}}
-                {{--<div class="content">An introductory class on C++. This course will outline the basic elements required to understand development...</div>--}}
-                {{--<div class="enrole">Enrole</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-
+    <div class="fix-margin company-intro">
+        <div class="content" style="color:white">
+            <p>JWL offer a cost effective solution for companies and individuals looking for the best in professional website design and customer interaction.
+            <p>Our aim is to provide the very best websites that are professionally designed and visually striking. We at JWL can help you maximise the benefits of an online presence by ensuring that your website meets every expectation.</p>
+            <p>JWL consists of over 10 years of web development experience. We have the dedication and knowledge to ensure that our clients receive only the best service and end result.</p>
+        </div>
+    </div>
     <div class="col-lg-12" style="">
         <div class="col-lg-1 service-item">
         </div>
         <div class="col-lg-10 service-item text-center cf">
-            <h2>Course and Subjects <i class="fa fa-comment"></i></h2>
-            <p>Here are our latest subjects that we are currently offering</p>
-            <p>We supply a wide range of topics, including development, design, photography and everything in-between</p>
-            <!-- Course 1 -->
             <div class="animation-element bounce-up cf">
                 <div class="subject development">
                     <div class="category-color"></div>
-                    <div class="icon"><i class="fa fa-cogs"></i></div>
-                    <div class="header cf">
-                        <h4 class="date"><i class="fa fa-calendar-o"></i> April, 2015</h4>
-                        <h4 class="category"><i class="fa fa-folder-o"></i> Development</h4>
-                    </div>
-                    <img style="float: left" width="40%" class="service-image img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/chemistryicon.png">
+                    <img class="service-image img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/chemistryicon.png">
                     <br>
-                    <h3 class="title">We build stunning websites!</h3>
-                    <div class="content">An introductory class on C++. This course will outline the basic elements required to understand development...</div>
-                    {{--<div class="enrole">Enrole</div>--}}
+                    <h3 class="title">Professional website design!</h3>
+                    <div class="content">Cost effective web design and hosting services delivered with ease.</div>
                 </div>
             </div>
             <div class="animation-element bounce-up cf">
                 <div class="subject design">
                     <div class="category-color"></div>
-                    <div class="icon"><i class="fa fa-cogs"></i></div>
-                    <div class="header cf">
-                        <h4 class="date"><i class="fa fa-calendar-o"></i> April, 2015</h4>
-                        <h4 class="category"><i class="fa fa-folder-o"></i> Development</h4>
-                    </div>
-                    <img style="float: left" width="40%" class="service-image img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/websiteicon.png">
+                    <img class="service-image img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/websiteicon.png">
                     <br>
-                    <h3 class="title">We build stunning websites!</h3>
-                    <div class="content">An introductory class on C++. This course will outline the basic elements required to understand development...</div>
-                    {{--<div class="enrole">Enrole</div>--}}
+                    <h3 class="title">Expert service and knowledge!</h3>
+                    <div class="content">Our websites are designed to look and work beautifully by our creative technical developers.</div>
                 </div>
             </div>
         </div>
@@ -135,38 +84,48 @@
         <div class="col-lg-1 service-item">
         </div>
         <div class="col-lg-10 service-item text-center cf">
-            <h2>Course and Subjects <i class="fa fa-comment"></i></h2>
-            <p>Here are our latest subjects that we are currently offering</p>
-            <p>We supply a wide range of topics, including development, design, photography and everything in-between</p>
-            <!-- Course 1 -->
-            {{--<div class="animation-element slide-right cf">--}}
             <div class="animation-element bounce-up cf">
                 <div class="subject development">
                     <div class="category-color"></div>
-                    <div class="icon"><i class="fa fa-cogs"></i></div>
-                    <div class="header cf">
-                        <h4 class="date"><i class="fa fa-calendar-o"></i> April, 2015</h4>
-                        <h4 class="category"><i class="fa fa-folder-o"></i> Development</h4>
-                    </div>
                     <img style="float: left" width="40%" class="service-image img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/chemistryicon.png">
                     <br>
-                    <h3 class="title">We handle all of your hosting needs!</h3>
-                    <div class="content">We make sure that your website is fast, responsive and easy to navigate. In order to help with this, we will set you up with a hosting provider to ensure all of the above.</div>
-                    {{--<div class="enrole">Enrole</div>--}}
+                    <h3 class="title">Personal and business websites!</h3>
+                    <div class="content">With our wealth of experience and knowledge, we will make your website stunning.</div>
                 </div>
             </div>
             <div class="animation-element bounce-up cf">
                 <div class="subject design">
                     <div class="category-color"></div>
-                    <div class="icon"><i class="fa fa-cogs"></i></div>
-                    <div class="header cf">
-                        <h4 class="date"><i class="fa fa-calendar-o"></i> April, 2015</h4>
-                        <h4 class="category"><i class="fa fa-folder-o"></i> Development</h4>
-                    </div>
-                    <img style="float: left" width="40%" class="service-image img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/cloudicon.png">
+                    <img class="service-image img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/cloudicon.png">
                     <br>
-                    <h3 class="title">We answer all of your needs!</h3>
-                    <div class="content">We dedicate a team to handle all of your maintenance queries all year round to ensure that your website is always up to date with your latest content.</div>
+                    <h3 class="title">UK company based in Greater Manchester!</h3>
+                    <div class="content">We have over 10 years experience designing websites for all different sized projects.</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-1">
+        </div>
+    </div>
+    <div class="col-lg-12">
+        <div class="col-lg-1 service-item">
+        </div>
+        <div class="col-lg-10 service-item text-center cf">
+            <div class="animation-element bounce-up cf">
+                <div class="subject development">
+                    <div class="category-color"></div>
+                    <img class="service-image img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/chemistryicon.png">
+                    <br>
+                    <h3 class="title">Web Hosting!</h3>
+                    <div class="content">We make sure that your website is super-fast, responsive and easy to navigate. In order to help with this, we will set you up with a hosting provider.</div>
+                </div>
+            </div>
+            <div class="animation-element bounce-up cf">
+                <div class="subject design">
+                    <div class="category-color"></div>
+                    <img class="service-image img-responsive" src="https://s3-eu-west-1.amazonaws.com/sixtybidresources/Sixtygrid/cloudicon.png">
+                    <br>
+                    <h3 class="title">Website Maintenance!</h3>
+                    <div class="content">A dedicated team will handle all of your maintenance requirements to ensure that your website is always up to date.</div>
                     {{--<div class="enrole">Enrole</div>--}}
                 </div>
             </div>
