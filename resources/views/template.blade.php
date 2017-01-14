@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/front.css">
     <link rel="stylesheet" type="text/css" href="css/layer.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
 
