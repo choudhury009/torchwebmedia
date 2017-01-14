@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/css/bootstrap-select.min.css">
 
-    <link rel="stylesheet" type="text/css" href="css/front.css">
+    {{--<link rel="stylesheet" type="text/css" href="css/front.css">--}}
     <link rel="stylesheet" type="text/css" href="css/layer.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -164,22 +164,6 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-<script>
-    $(function() {
-        $('.logout').click(function(e) {
-            e.preventDefault();
-
-            $('#logout-form').submit();
-        });
-
-        $.ajaxSetup({
-            headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-            }
-        });
-    });
-</script>
 
 @yield('scripts')
 
