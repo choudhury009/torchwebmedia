@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/css/bootstrap-select.min.css">
 
     <link rel="stylesheet" type="text/css" href="css/front.css">
+    <link rel="stylesheet" type="text/css" href="css/layer.css">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
 
@@ -24,7 +25,7 @@
 
 </head>
 
-<body class="body-grad" style="background-color: rgb(240, 240, 240)">
+<body class="" style="background-color: rgb(240, 240, 240)">
 <nav id="mob-nav">
     <div class="nav-panel">
         {{--<ul class="menu-list">--}}
