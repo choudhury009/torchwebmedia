@@ -1035,7 +1035,7 @@ body.boxed .footer_inner {
 
 header {
     width: 100%;
-    display: inline-block;
+    /*display: inline-block;*/
     margin: 0;
     vertical-align: middle;
     position: relative;

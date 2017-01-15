@@ -1,3 +1,81 @@
+@media (max-width: 768px) {
+    .navbar-default {
+        display: none;
+    }
+    #mob-nav {
+        display: block;
+    }
+}
+@media (min-width: 768px) {
+    .menu-primary, .menu-secondary, .menu-logo {
+        display: none;
+    }
+}
+#mob-nav {
+    height: 100%;
+    width: 300px;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    z-index: 1000;
+}
+#mob-nav .nav-panel {
+    height: 100%;
+    overflow-y: auto;
+}
+#mob-nav.nav-right {
+    left: auto;
+    right: -300px;
+}
+#mob-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#mob-nav ul li {
+    zoom: 1;
+    height: 60px;
+}
+#mob-nav ul li:before {
+    content: '';
+    display: block;
+}
+#mob-nav ul li:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+nav ul.menu-list li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+}
+#mob-nav ul.menu-list li a:hover {
+    background-color: #595959;
+}
+#mob-nav ul.menu-list li a.nav-close {
+    background: rgb(240, 240, 240) url(../img/icons/nav-icon.png) no-repeat 260px 15px;
+}
+#mob-nav ul.menu-list li a.nav-close:hover {
+    background-color: rgb(240, 240, 240);
+}
+#mob-nav ul.menu-list li ul a {
+    padding: 15px 20px;
+    background-color: #595959;
+}
+
+#nav-btn {
+    background: url(../img/icons/nav-icon.png) no-repeat center center;
+    /*overflow: hidden;*/
+    /*text-indent: 9999px;*/
+    white-space: nowrap;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 10px 10px 0 0;
+}
+
 @media only screen and (min-width: 1300px) and (max-width:1600px) {
     .full_width .projects_masonry_holder .portfolio_masonry_item,.full_width .projects_masonry_holder .portfolio_masonry_item.large_height {
         width:24.98%!important;

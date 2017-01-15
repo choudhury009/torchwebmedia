@@ -22,11 +22,11 @@
                             </div>
                             <div class="slider_content_outer">
                                 <div class="slider_content center skrollable skrollable-between"
-                                     style="width: 98%; left: 1%;opacity: 1;"
+                                     style="width: 98%; left: 1%; top: 10%; opacity: 1;"
                                      data-start="width:98%; opacity:1; left:1%; top:38%;" data-300="opacity: 0; left:1%; top:28%;">
                                     <div class="text">
                                         <h2 style="color: #fff;line-height: 60px;text-shadow: none;">
-                                            <span style="letter-spacing: 17px;font-weight: 500;">THE WEBSITE LADS</span>
+                                            <span style="letter-spacing: 15px;font-weight: 600;">FWEB SOCIETY</span>
                                         </h2>
                                         <p style="color: #fff;text-shadow: none;">
                                         </p>
@@ -53,7 +53,7 @@
                                         <div class="icon_text_inner" style="">
                                             <h3 class="icon_title" style="">WHAT WE DO</h3>
                                             <p>
-                                                JWL offer a cost effective solution for companies and individuals looking for the best in professional website design and customer interaction.
+                                                FWeb Society offer a cost effective solution for companies and individuals looking for the best in professional website design and customer interaction.
                                                 Our aim is to provide the very best websites that are professionally designed and visually striking.
                                             </p>
                                         </div>
@@ -86,7 +86,7 @@
                                         <div class="icon_text_inner" style="">
                                             <h3 class="icon_title" style="">OUR CREATIONS</h3>
                                             <p style="">
-                                                We at JWL can help you maximise the benefits of an online presence by ensuring that your website meets every expectation.
+                                                We at FWeb Society can help you maximise the benefits of an online presence by ensuring that your website meets every expectation.
                                                 From mini projects to large e-commerce websites. Here is one of our favourite!
                                             </p>
                                         </div>
