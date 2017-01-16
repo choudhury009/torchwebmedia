@@ -26,11 +26,11 @@
 <nav id="mob-nav">
     <div class="nav-panel">
         <ul class="menu-list">
-            <li><a class="nav-close main-toggle"><p></p></a></li>
-            <li><a class=""><p>Hello</p></a></li>
-            <li><a class=""><p>Hello</p></a></li>
-            <li><a class=""><p>Hello</p></a></li>
-            <li><a class=""><p>Hello</p></a></li>
+            <li><a class="nav-close main-toggle" style="padding-bottom:25px;"><p></p></a></li>
+            <li><a class=""><p>Home</p></a></li>
+            <li><a class=""><p>About us</p></a></li>
+            <li><a class=""><p>Services</p></a></li>
+            <li><a class=""><p>Contact</p></a></li>
             {{--<li><p>{!! link_to('/', 'Home') !!}</p></li>--}}
             {{--@if(session('statut') == 'visitor')--}}
                  {{--login --}}
@@ -60,12 +60,14 @@
 </nav>
 <header>
     <div class="menu-primary">
-        <a id="nav-btn" class="main-toggle"></a>
+        <a id="nav-btn" class="main-toggle" style="padding: 16px 25px;"></a>
     </div>
     <div class="menu-secondary">
-        {{--<a href="/cart" style="position:absolute;top:0;right:0;">--}}
+        <a href="/" style="position:absolute;top:0;right:0;">
+            FWEB SOCIETY
             {{--<img src="/img/shop/basketicon.png" alt="Muzzini" border="0" style="height: 40px;">--}}
-        {{--</a>--}}
+        </a>
+
     </div>
     <div class="menu-logo">
         {{--<a href="/">--}}
@@ -90,10 +92,10 @@
 
         <div class="" style="float: right">
             <ul class="nav navbar-nav">
-                <li><a class="nav-close main-toggle">HOME</a></li>
-                <li><a class="nav-close main-toggle">ABOUT US</a></li>
-                <li><a class="nav-close main-toggle">SERVICES</a></li>
-                <li><a class="nav-close main-toggle">CONTACT</a></li>
+                <li><a class="">Home</a></li>
+                <li><a class="">About us</a></li>
+                <li><a class="">Services</a></li>
+                <li><a class="">Contact</a></li>
             </ul>
         </div>
     </div>
