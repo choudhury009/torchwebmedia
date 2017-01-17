@@ -13,6 +13,7 @@
 
 Route::get('/', 'HomeController')->name('home');
 
+Route::get('/about-us', 'HomeController@aboutUs');
 //Route::get('/', function () {
 //    return view('welcome');
 //});

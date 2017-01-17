@@ -17,7 +17,8 @@
     <link rel="stylesheet" type="text/css" href="css/layer.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
+    <link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/icons/favicon.ico" type="image/x-icon">
 
     @yield('head')
 </head>
@@ -27,8 +28,8 @@
     <div class="nav-panel">
         <ul class="menu-list">
             <li><a class="nav-close main-toggle" style="padding-bottom:25px;"><p></p></a></li>
-            <li><a class=""><p>Home</p></a></li>
-            <li><a class=""><p>About us</p></a></li>
+            <li><a class="" href="/"><p>Home</p></a></li>
+            <li><a class="" href="/about-us"><p>About us</p></a></li>
             <li><a class=""><p>Services</p></a></li>
             <li><a class=""><p>Contact</p></a></li>
             {{--<li><p>{!! link_to('/', 'Home') !!}</p></li>--}}
@@ -86,14 +87,14 @@
 
         <div>
             <ul class="nav navbar-nav">
-                <li><a>FWEB SOCIETY</a></li>
+                <li><a href="/">FWEB SOCIETY</a></li>
             </ul>
         </div>
 
         <div class="" style="float: right">
             <ul class="nav navbar-nav">
-                <li><a class="">Home</a></li>
-                <li><a class="">About us</a></li>
+                <li><a class="" href="/">Home</a></li>
+                <li><a class="" href="/about-us">About us</a></li>
                 <li><a class="">Services</a></li>
                 <li><a class="">Contact</a></li>
             </ul>

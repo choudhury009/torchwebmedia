@@ -17,8 +17,8 @@
                     <div class="carousel-inner skrollable skrollable-between" data-start="transform: translateY(0px);"
                          data-1440="transform: translateY(-500px);" style="transform: translateY(0px); display: block;">
                         <div class="item dark active" style="height: 702px;">
-                            <div class="image" style="background-image:url(/img/slideshow/salford.jpg);">
-                                <img src="/img/slideshow/salford.jpg" alt="Creators" />
+                            <div class="image" style="background-image:url(/img/background/earth.jpg);">
+                                {{--<img src="/img/slideshow/earth.jpg" alt="Creators" />--}}
                             </div>
                             <div class="slider_content_outer">
                                 <div class="slider_content center skrollable skrollable-between"
@@ -60,8 +60,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class=
-                                 "wpb_column vc_column_container col-sm-3">
+                            <div class="wpb_column vc_column_container col-sm-3">
                                 <div class="vc_column-inner">
                                     <div class="wpb_wrapper">
                                         <div class="q_icon_with_title medium circle center">
