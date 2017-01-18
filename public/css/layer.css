@@ -5414,7 +5414,7 @@ blockquote i.pull-left {
     -moz-filter: grayscale(100%);
     filter: gray;
     filter: grayscale(100%);
-    filter: url(img/desaturate.svg#grayscale)
+    filter: url(img/icons/nav-icon.png#grayscale); /* just used for image background */
 }
 
 .gallery_holder ul li.grayscale:hover a img {

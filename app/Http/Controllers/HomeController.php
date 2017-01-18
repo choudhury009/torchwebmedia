@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\DB;
-
 class HomeController extends Controller
 {
     /**
@@ -19,5 +17,15 @@ class HomeController extends Controller
     public function aboutUs()
     {
         return view('aboutUs');
+    }
+
+    public function portfolio()
+    {
+        return view('websites');
+    }
+
+    public function contact()
+    {
+        return view('contact');
     }
 }

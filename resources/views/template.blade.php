@@ -5,8 +5,8 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>F Web Society</title>
-    <meta name="description" content="FWebSociety">
+    <title>Torch Web Media</title>
+    <meta name="description" content="Torch Web Media">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -30,8 +30,8 @@
             <li><a class="nav-close main-toggle" style="padding-bottom:25px;"><p></p></a></li>
             <li><a class="" href="/"><p>Home</p></a></li>
             <li><a class="" href="/about-us"><p>About us</p></a></li>
-            <li><a class=""><p>Services</p></a></li>
-            <li><a class=""><p>Contact</p></a></li>
+            <li><a class="" href="/portfolio"><p>Portfolio</p></a></li>
+            <li><a class="" href="/contact"><p>Contact</p></a></li>
             {{--<li><p>{!! link_to('/', 'Home') !!}</p></li>--}}
             {{--@if(session('statut') == 'visitor')--}}
                  {{--login --}}
@@ -64,11 +64,7 @@
         <a id="nav-btn" class="main-toggle" style="padding: 16px 25px;"></a>
     </div>
     <div class="menu-secondary">
-        <a href="/" style="position:absolute;top:0;right:0;">
-            FWEB SOCIETY
-            {{--<img src="/img/shop/basketicon.png" alt="Muzzini" border="0" style="height: 40px;">--}}
-        </a>
-
+        <a href="/" style="position:absolute;top:10px;right:10px;">Torch Web Media</a>
     </div>
     <div class="menu-logo">
         {{--<a href="/">--}}
@@ -87,7 +83,7 @@
 
         <div>
             <ul class="nav navbar-nav">
-                <li><a href="/">FWEB SOCIETY</a></li>
+                <li><a href="/">Torch Web Media</a></li>
             </ul>
         </div>
 
@@ -95,8 +91,8 @@
             <ul class="nav navbar-nav">
                 <li><a class="" href="/">Home</a></li>
                 <li><a class="" href="/about-us">About us</a></li>
-                <li><a class="">Services</a></li>
-                <li><a class="">Contact</a></li>
+                <li><a class="" href="/portfolio">Portfolio</a></li>
+                <li><a class="" href="/contact">Contact</a></li>
             </ul>
         </div>
     </div>
