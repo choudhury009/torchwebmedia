@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/css/bootstrap-select.min.css">
 
-    {{--<link rel="stylesheet" type="text/css" href="css/front.css">--}}
     <link rel="stylesheet" type="text/css" href="css/layer.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css">
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -32,30 +31,6 @@
             <li><a class="" href="/about-us"><p>About us</p></a></li>
             <li><a class="" href="/portfolio"><p>Portfolio</p></a></li>
             <li><a class="" href="/contact"><p>Contact</p></a></li>
-            {{--<li><p>{!! link_to('/', 'Home') !!}</p></li>--}}
-            {{--@if(session('statut') == 'visitor')--}}
-                 {{--login --}}
-            {{--@else--}}
-                {{--@if(session('statut') == 'admin')--}}
-                    {{--<li><p>{!! link_to_route('admin', 'Admin') !!}</p></li>--}}
-                {{--@elseif(session('statut') == 'redac')--}}
-                    {{--<li><p>{!! link_to('blog', trans('front/site.redaction')) !!}</p></li>--}}
-                {{--@endif--}}
-            {{--@endif--}}
-            {{--<li><p>{!! link_to('/shop', 'Shop all') !!}</p></li>--}}
-            {{--<li><p>{!! link_to('/shop/clothing', 'T-shirts & Jumpers') !!}</p></li>--}}
-            {{--<li><p>{!! link_to('/shop/accessories', 'Accessories & Bags') !!}</p></li>--}}
-            {{--<li><p>{!! link_to('/info/about-us', 'About us') !!}</p></li>--}}
-            {{--@if(session('statut') == 'user' || session('statut') == 'admin')--}}
-                {{--<li><p>{!! link_to('/my-account', 'My account') !!}</p></li>--}}
-            {{--@endif--}}
-            {{--<li><p>{!! link_to('/cart', 'Basket') !!}</p></li>--}}
-            {{--@if(session('statut') != 'visitor')--}}
-                {{--<li class="logout-li">--}}
-                    {{--<p>{!! link_to('/logout', trans('front/site.logout'), ['class' => "logout"]) !!}</p>--}}
-                    {{--{!! Form::open(['url' => '/logout', 'class' => 'logout-form']) !!}{!! Form::close() !!}--}}
-                {{--</li>--}}
-            {{--@endif--}}
         </ul>
     </div>
 </nav>
@@ -115,20 +90,20 @@
 <footer>
     <div id="footer-wrapper" class="text-center" style="color:white; background-color: #4A4A4A">
 
-        <div>
-            {{--<ul class="footer-middle">--}}
-                {{--<li>{!! link_to('/shop/clothing', 'T-Shirts') !!}</li>--}}
-                {{--<li>{!! link_to('/shop/clothing', 'Hoodies &amp; Sweatshirts') !!}</li>--}}
-                {{--<li>{!! link_to('/shop/clothing', 'Jackets &amp; Jeans') !!}</li>--}}
-                {{--<li>{!! link_to('/shop/accessories', 'Hats &amp; Bags') !!}</li>--}}
+        {{--<div>--}}
+            {{--<ul class="footer-middle" style="">--}}
+                {{--<li><a class="" href="/"><p>Home</p></a></li>--}}
+                {{--<li><a class="" href="/about-us"><p>About us</p></a></li>--}}
+                {{--<li><a class="" href="/portfolio"><p>Portfolio</p></a></li>--}}
+                {{--<li><a class="" href="/contact"><p>Contact</p></a></li>--}}
             {{--</ul>--}}
             {{--<hr>--}}
             {{--<span>We accept the following</span>--}}
             {{--<br>--}}
             {{--<img style="width: 150px;" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png" alt="Buy now with PayPal">--}}
             {{--<br>--}}
-            {{--<span>Copyright &copy; 2017 Muzzini. All images and rights reserved. {!! link_to('/info/privacy-policy', 'Privacy policy') !!}</span>--}}
-        </div>
+            {{--<span>Copyright &copy; 2017 Muzzini. All images and rights reserved.</span>--}}
+        {{--</div>--}}
     </div>
 
     @yield('footer')

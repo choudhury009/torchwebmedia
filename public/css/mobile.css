@@ -48,7 +48,7 @@
 }
 nav ul.menu-list li a {
     display: block;
-    padding: 15px 20px;
+    padding: 15px 10px 5px 15px;
     color: #fff;
 }
 #mob-nav ul.menu-list li a:hover {

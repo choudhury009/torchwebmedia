@@ -134,12 +134,12 @@
                             <div class="wpb_gallery_slides wpb_image_grid" data-interval="3">
                                 <div class="gallery_holder">
                                     <ul class="gallery_inner v2">
-                                        <li class="grayscale">
-                                            <a href="/portfolio/ecig-factory/">
+                                        <li class="">
+                                            <a href="http://www.ecigfactory.co.uk/">
                                                 <img src="img/slideshow/ecigfactory.png"/>
                                             </a>
                                         </li>
-                                        <li class="grayscale" style="padding: 100px 40px 40px 40px;">
+                                        <li class="" style="padding:2%;">
                                             <p>
                                                 With the growing concern of young deaths in relation to the effects of
                                                 smoking, ecig factory was formed by a group of caring, hardworking
@@ -163,12 +163,12 @@
                             <div class="wpb_gallery_slides wpb_image_grid" data-interval="3">
                                 <div class="gallery_holder">
                                     <ul class="gallery_inner v2">
-                                        <li class="grayscale">
-                                            <a href="/portfolio/muzzini/">
+                                        <li class="">
+                                            <a href="http://www.muzzini.co.uk/">
                                                 <img src="img/slideshow/muzzinicreation.png"/>
                                             </a>
                                         </li>
-                                        <li class="grayscale" style="padding: 100px 40px 40px 40px;">
+                                        <li class="" style="padding:2%;">
                                             <p>
                                                 The ultimate goal for the Muzzini is to begin production on customised
                                                 clothing, bags and other accessories. We believe that each and every
@@ -190,12 +190,12 @@
                             <div class="wpb_gallery_slides wpb_image_grid" data-interval="3">
                                 <div class="gallery_holder">
                                     <ul class="gallery_inner v2">
-                                        <li class="grayscale">
+                                        <li class="">
                                             <a href="/">
                                                 <img src="img/slideshow/torchwebmedia.png"/>
                                             </a>
                                         </li>
-                                        <li class="grayscale" style="padding: 100px 40px 40px 40px;">
+                                        <li class="" style="padding:2%;">
                                             <p>
                                                 Torch Web Media offer a cost effective solution for companies and
                                                 individuals looking for the best in professional website design and

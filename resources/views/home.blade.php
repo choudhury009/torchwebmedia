@@ -128,17 +128,17 @@
                         <div class="wpb_gallery_slides wpb_image_grid" data-interval="3">
                             <div class="gallery_holder">
                                 <ul class="gallery_inner v3">
-                                    <li class="grayscale">
-                                        <a href="/portfolio/ecig-factory/">
+                                    <li class="">
+                                        <a href="http://www.ecigfactory.co.uk/">
                                             <img src="img/slideshow/ecigfactory.png"/>
                                         </a>
                                     </li>
-                                    <li class="grayscale">
-                                        <a href="/portfolio/muzzini/">
+                                    <li class="">
+                                        <a href="http://www.muzzini.co.uk/">
                                             <img src="img/slideshow/muzzinicreation.png"/>
                                         </a>
                                     </li>
-                                    <li class="grayscale">
+                                    <li class="">
                                         <a href="/"><img src="img/slideshow/torchwebmedia.png"/></a>
                                     </li>
                                 </ul>
@@ -161,6 +161,7 @@
                                     <div class="wpb_wrapper" style="text-align: center">
                                         {{--<p>m: 07542227208</p>--}}
                                         <p>e: jtapps009@gmail.com</p>
+                                        <a href="tel:+44-7542-227-208" class="qbutton small center" style="">Call us now</a>
                                     </div>
                                 </div>
                                 <div class="testimonials_holder clearfix">

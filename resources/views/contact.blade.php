@@ -48,13 +48,14 @@
                                     <div class="wpb_text_column wpb_content_element">
                                         <div class="wpb_wrapper">
                                             {{--<h2 style="text-align: center;">Don’t just take our word for it</h2>--}}
-                                            <h2 style="text-align: center;">Get your quote</h2>
+                                            <h2 style="text-align: center;">Find us here</h2>
                                         </div>
                                     </div>
                                     <div class="wpb_text_column wpb_content_element">
                                         <div class="wpb_wrapper" style="text-align: center">
                                             {{--<p>m: 07542227208</p>--}}
                                             <p>e: jtapps009@gmail.com</p>
+                                            <a href="tel:+44-7542-227-208" class="qbutton small center" style="">Call us now</a>
                                         </div>
                                     </div>
                                     <div class="testimonials_holder clearfix">
