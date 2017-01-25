@@ -39,11 +39,13 @@
         <a id="nav-btn" class="main-toggle" style="padding: 16px 25px;"></a>
     </div>
     <div class="menu-secondary">
-        <a href="/" style="position:absolute;top:10px;right:10px;">Torch Web Media</a>
+        <a href="/" style="position:absolute;top:10px;right:10px;">
+            {{--<img src="/img/icons/twmlogo.png" alt="Torch Web Media" style="width: 100px;">--}}
+        </a>
     </div>
     <div class="menu-logo">
         {{--<a href="/">--}}
-            {{--<img src="/img/muzzinilogo.png" alt="Muzzini" style="width: 100px;">--}}
+            {{--<img src="/img/icons/twmlogo.png" alt="Torch Web Media" style="width: 100px;">--}}
         {{--</a>--}}
     </div>
     <div class="navbar-default" style="position:fixed; width:100%; background-color: rgb(240, 240, 240);">
@@ -58,7 +60,11 @@
 
         <div>
             <ul class="nav navbar-nav">
-                <li><a href="/">Torch Web Media</a></li>
+                <li>
+                    <a href="/" style="padding: 3px 0 0 10px;">
+                        <img src="/img/icons/twmlogo.png" alt="Torch Web Media" style="width: 60px;">
+                    </a>
+                </li>
             </ul>
         </div>
 

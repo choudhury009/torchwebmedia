@@ -43,7 +43,7 @@
             <div class="full_width">
                 <div class="full_width_inner">
                     <div class="wpb_row section vc_row-fluid grid_section"
-                         style=" padding-top:75px; text-align:left;">
+                         style=" padding-top:65px; padding-bottom:20px;text-align:left;">
                         <div class=" section_inner clearfix">
                             <div class="section_inner_margin clearfix">
                                 <div class="wpb_column vc_column_container vc_col-sm-6">
@@ -52,10 +52,10 @@
                                             <div class="vc_column-inner">
                                                 <div class="wpb_wrapper">
                                                     <div class="separator transparent center"
-                                                         style="margin-top:10px;margin-bottom:0px;"></div>
+                                                         style="margin-top:10px;margin-bottom:20px;"></div>
                                                     <div class="wpb_text_column wpb_content_element">
                                                         <div class="wpb_wrapper">
-                                                            <h2 style="text-align: center;">WHO WE ARE</h2>
+                                                            <h2 style="text-align: center;">WHAT WE DO</h2>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -64,6 +64,12 @@
                                                         <h4 style="text-align: center;">
                                                             Are you looking for a personal or business
                                                             website that is attractive and affordable?
+                                                        </h4>
+                                                        <h4 style="text-align: center;">
+                                                            We offer high-quality design and website building
+                                                        </h4>
+                                                        <h4 style="text-align: center;">
+                                                            for start ups and small businesses all around the world.
                                                         </h4>
                                                         <p style="text-align: center;">
                                                             With our wealth of experience and knowledge,
@@ -75,39 +81,15 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-6">
-                                    <div class="wpb_single_image wpb_content_element vc_align_center element_from_right element_from_right_on">
-                                        <div style="text-align: center;transition-delay:0.3s">
-                                            <div class="wpb_wrapper">
-                                                <img align="center" width="429" height="409" src="/img/slideshow/background.jpg"
-                                                     class=" vc_box_border_grey attachment-full" alt="Websites"
-                                                     srcset="/img/slideshow/background.jpg 429w, /img/slideshow/background.jpg 300w"
-                                                     sizes="(max-width: 429px) 100vw, 429px"
-                                                />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="separator transparent center" style="margin-top:60px;margin-bottom:7px;"></div>
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="wpb_row section vc_row-fluid grid_section"
-                         style="background-color:#ffffff; padding-top:87px; text-align:left;">
+                         style="background-color:#ffffff; padding-top:20px; text-align:left;">
                         <div class=" section_inner clearfix">
                             <div class="section_inner_margin clearfix">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
-                                    <div class="wpb_text_column wpb_content_element">
-                                        <div class="wpb_wrapper">
-                                            <h2 style="text-align: center;">WHAT WE DO</h2>
-                                        </div>
-                                    </div>
-                                    <div class="wpb_text_column wpb_content_element">
-                                        <div class="wpb_wrapper">
-                                            <h4 style="text-align: center;">We offer high-quality design and website building</h4>
-                                            <h4 style="text-align: center;">for start ups and small businesses all around the world.</h4>
-                                        </div>
-                                    </div>
+
                                     <div class="separator transparent center" style="margin-top:35px;margin-bottom:17px;"></div>
                                 </div>
                             </div>
